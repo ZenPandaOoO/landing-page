@@ -1,0 +1,106 @@
+.header {
+    display: flex;
+    background-color: #1f2537;
+    padding: 24px;
+    justify-content: flex-start;
+}
+
+.links {
+    display: flex;
+    margin-right: 185px;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 195px;
+    margin-right: auto;
+}
+
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    color: rgb(207, 207, 207);
+}
+
+.introduction {
+    display: flex;
+    background-color: #1f2537;
+    padding: 8px;
+    padding-bottom: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    max-width: 500px;
+    margin-right: 200px;
+    
+}
+
+.button {
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 5px;
+    max-width: 100px;
+    max-height: 25px;
+    text-align: center;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.food {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.info-text {
+    max-width: 150;
+    text-align: center;
+    margin: 8px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.quote-box {
+    display: flex;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #1f2937;
+    max-width: 1000px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-author {
+    display: flex;
+    flex-shrink: 1;
+}
